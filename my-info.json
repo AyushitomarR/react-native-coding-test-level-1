@@ -7,7 +7,12 @@
 
     "country":"USA",
     "population":335909197,
-    "willVisit":true
+    "willVisit":true,
+    "favouriteFoods": [
+        "Kaju Katli",
+        "Dosa",
+        "Egg Curry"
+    ]
 
 }
 
