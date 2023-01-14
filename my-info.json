@@ -1,5 +1,5 @@
 {
-    "favouriteColors": [
+    "favourite_colors": [
         "#87CEEB",
         "#000000",
         "##0000FF"
@@ -7,8 +7,8 @@
 
     "country":"USA",
     "population":335909197,
-    "willVisit":true,
-    "favouriteFoods": [
+    "will_visit":true,
+    "favourite_foods": [
         "Kaju Katli",
         "Dosa",
         "Egg Curry"
