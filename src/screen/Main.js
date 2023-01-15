@@ -2,7 +2,7 @@ import React from "react";
 import { Button, View } from "react-native";
 import { STRINGS } from '../utils/strings'
 
-const Main = ({navigation}) => {
+const Main = ({ navigation }) => {
 
     return (
 
@@ -10,6 +10,11 @@ const Main = ({navigation}) => {
 
             <Button title={STRINGS.CONTACT_US}
                 onPress={() => navigation.navigate('UserForm')} />
+
+            <View style={{ marginTop: 10 }}>
+                <Button title={STRINGS.VIEW_CATALOG}
+                    onPress={() => navigation.navigate('PokemonList')} />
+            </View>
 
         </View>
     )
